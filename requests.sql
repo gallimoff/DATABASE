@@ -50,4 +50,5 @@ INSERT INTO sales(order_id, product_id, quantity, price) VALUES
 (2, 1, 2, 3990),
 (3, 3, 1, 5290);
 
+
 SELECT  s.order_id, s.product_id, s.quantity, s.price, s.price * s.quantity AS total_prise FROM sales s;
